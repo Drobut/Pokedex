@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    margin-top: 60px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    cursor: default;
+}
+
+body {
+    background-color: tomato;
+}
+
+
+main {
+    margin-top: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.esquerda {
+    padding: 30px;
+    width: 350px;
+    height: 600px;
+    background-color: rgb(253, 121, 98);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.direita {
+    padding: 30px;
+    width: 700px;
+    height: 600px;
+    background-color: rgb(253, 121, 98);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    transition: 0.5s all;
+    margin-top: 8px;
+
+}
+
+h2:hover {
+    transform: scale(1.05);
+}
+
+.img1 {
+    width: 70%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    transition: 0.5s all;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+}
+
+.img2 {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: 0.5s all;
+}
+
+.img2:hover {
+    transform: scale(1.1);
+}
+
+.turtle {
+    background-color: #56b7d463;
+    padding: 10px 120px 10px 120px;
+    border-radius: 10px;
+}
+
+.eletric {
+    background-color: #f4d67b8c;
+    padding: 10px 120px 10px 120px;
+    border-radius: 10px;
+}
